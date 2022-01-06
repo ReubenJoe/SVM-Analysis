@@ -37,6 +37,6 @@ The following acoustic properties of each voice are measured and included within
 <li>maxdom: maximum of dominant frequency measured across acoustic signal</li><br />
 <li>dfrange: range of dominant frequency measured across acoustic signal</li><br />
 <li>modindx: modulation index. Calculated as the accumulated absolute difference between adjacent measurements of fundamental frequencies divided by the frequency range</li><br />
-<li>label: male or female</li><br />
+<li>Label: male or female</li><br />
 </ul>
 Link for dataset: https://www.kaggle.com/primaryobjects/voicegender
