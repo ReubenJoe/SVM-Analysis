@@ -15,7 +15,7 @@ The success of SVMs is mainly attributed to three fundamental reasons: Kernel tr
 This database was created to identify a voice as male or female, based upon acoustic properties of the voice and speech. The dataset consists of 3,168 recorded voice samples, collected from male and female speakers. The voice samples are pre-processed by acoustic analysis in R using the seewave and tuneR packages, with an analyzed frequency range of 0hz-280hz (human vocal range).
 
 The following acoustic properties of each voice are measured and included within the CSV:
-
+<ul>
 <li>meanfreq: mean frequency (in kHz)</li><br />
 <li>sd: standard deviation of frequency</li><br />
 <li>median: median frequency (in kHz)</li><br />
@@ -38,5 +38,5 @@ The following acoustic properties of each voice are measured and included within
 <li>dfrange: range of dominant frequency measured across acoustic signal</li><br />
 <li>modindx: modulation index. Calculated as the accumulated absolute difference between adjacent measurements of fundamental frequencies divided by the frequency range</li><br />
 <li>label: male or female</li><br />
-
+</ul>
 Link for dataset: https://www.kaggle.com/primaryobjects/voicegender
